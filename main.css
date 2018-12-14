@@ -22,7 +22,7 @@ nav ul {
 
 nav ul li a {
   font-family: 'Staatliches', cursive;
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: #fff;
   display: block;
   text-decoration: none;
@@ -109,6 +109,11 @@ nav ul li a:hover {
 }
 
 @media (min-width: 576px) and (max-width:768px) {
+  nav ul li a {
+    text-align: left;
+    font-size: 1.6em;
+  }
+
   .divSocial img {
     margin-left: 70%;
     margin-right: 10%;
@@ -166,6 +171,8 @@ nav ul li a:hover {
   }
 
   .divLogo img {
+    margin-left: 23%;
+    margin-right: auto;
     height: 200px;
     width: 210px;
   }
@@ -187,6 +194,8 @@ nav ul li a:hover {
   }
 
   .divLogo img {
+    margin-left: 30%;
+    margin-right: auto;
     height: 200px;
     width: 210px;
   }
