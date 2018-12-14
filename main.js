@@ -1,5 +1,5 @@
 function homeDivs() {
-  let height = $(document).height();
+  let height = screen.height;
   $(".divRowHome").css("height", height);
 
   let width = $(".divImgHome").width();
