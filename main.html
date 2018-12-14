@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+  <!--bootstrap, jquery, etc-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--the fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <!--main script-->
+  <script type="text/javascript" src="main.js"> </script>
+  <!--main css with medias-->
+  <link rel="stylesheet" type="text/css" href="main.css" />
+
+  <!-- title and icon-->
+  <link rel="icon" href="./assets/at.ico">
+  <title> Congreso AT </title>
+</head>
+
+<body class="bodyHome" onload="homeDivs();" onresize="homeDivs();">
+  <div class="container-fluid">
+    <div class="row divRowHome">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 divMenuHome">
+        <p id="homeTitle">Congreso <span id="at">AT</span></p>
+        <nav>
+          <ul>
+            <li><a href="#">Concursos</a></li>
+            <li><a href="#">Visitas</a></li>
+            <li><a href="#">Talleres</a></li>
+            <li><a href="#">Conferencias</a></li>
+            <li><a href="#">Boletos</a></li>
+            <li><a href="#">Hospedaje</a></li>
+          </ul>
+        </nav>
+        <div class="logosHome row">
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 divLogo">
+            <img src="./assets/at.png" alt="logo_at" id="logo_at">
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 divSocial">
+            <a href="https://www.facebook.com/automatizacionytecnologia/" target="_blank"><img src="./assets/fb_icon.svg" alt="logo_fb" title="¡Siguenos en facebook!"></a>
+            <a href="https://twitter.com/eventoat" target="_blank"><img src="./assets/twiter_icon.svg" alt="logo_fb" title="¡Siguenos en Twitter!"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-8 divImgHome">
+        <a href="https://tec.mx/" target="_blank" title="Tecnologico de Monterrey" class="logo_tec">
+          <img src="./assets/tec.png" alt="logo_tec" id="logo_">
+        </a>
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-0 offsetCol">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

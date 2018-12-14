@@ -1,0 +1,193 @@
+.bodyHome {
+  background-color: orange;
+  color: white;
+}
+
+#homeTitle {
+  text-align: right;
+  font-family: 'Staatliches', cursive;
+  font-size: 2.6em;
+}
+
+#at {
+  font-family: 'Staatliches', cursive;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  font-family: 'Staatliches', cursive;
+  font-size: 1.4em;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: .15em;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: orange;
+  text-decoration: none;
+}
+
+#logo_at {
+  border-radius: 40%;
+}
+
+.logosHome {
+  margin-top: 2em;
+}
+
+.divLogo img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.divImgHome {
+  background-color: white;
+}
+
+.logo_tec {
+  position: absolute;
+  top: .6em;
+  right: .5em;
+}
+
+.divSocial img {
+  margin-top: .3em;
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 576px) {
+  nav ul li a {
+    text-align: left;
+    font-size: 1.2em;
+  }
+
+  .divSocial img {
+    margin-left: 70%;
+    margin-right: 10%;
+    display: block;
+    margin-top: 1.2em;
+    width: 35px;
+    height: 35px;
+  }
+
+  .offsetCol {
+    display: none;
+  }
+
+  #homeTitle {
+    text-align: left;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.1em;
+  }
+
+  #at {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+  }
+
+  a #logo_ {
+    height: 30px;
+    width: 115px;
+  }
+
+  .divLogo img {
+    height: 95px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+  .divSocial img {
+    margin-left: 70%;
+    margin-right: 10%;
+    display: block;
+    margin-top: 1.2em;
+    width: 40px;
+    height: 40px;
+  }
+
+  a #logo_ {
+    height: 33px;
+    width: 126px;
+  }
+
+  .divLogo img {
+    height: 152px;
+    width: 160px;
+  }
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+  .divSocial img {
+    margin-left: 70%;
+    margin-right: 10%;
+    display: block;
+    margin-top: 1.2em;
+    width: 45px;
+    height: 45px;
+  }
+
+  a #logo_ {
+    height: 35px;
+    width: 134px;
+  }
+
+  .divLogo img {
+    height: 171px;
+    width: 180px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+  .divSocial img {
+    margin-left: 40%;
+    margin-right: 10%;
+    display: block;
+    margin-top: 1.2em;
+    width: 50px;
+    height: 50px;
+  }
+
+  a #logo_ {
+    height: 38px;
+    width: 146px;
+  }
+
+  .divLogo img {
+    height: 200px;
+    width: 210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .divSocial img {
+    margin-left: 40%;
+    margin-right: 10%;
+    display: block;
+    margin-top: 1.2em;
+    width: 50px;
+    height: 50px;
+  }
+
+  a #logo_ {
+    height: 38px;
+    width: 146px;
+  }
+
+  .divLogo img {
+    height: 200px;
+    width: 210px;
+  }
+}
