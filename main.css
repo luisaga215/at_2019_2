@@ -51,7 +51,26 @@ nav ul li a:hover {
   display: block;
 }
 
-.divImgHome {
+.divSocial img {
+  margin-top: .3em;
+  height: 50px;
+  width: 50px;
+}
+
+.divImgHome1 {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 105px;
+  margin-bottom: 2px;
+}
+
+.divImgHome2 {
+  border-radius: 10px;
+  height: 500px;
+}
+
+.divImgHome1, .divImgHome2 {
+  margin-left: -2.5%;
   background-color: white;
 }
 
@@ -59,12 +78,6 @@ nav ul li a:hover {
   position: absolute;
   top: .6em;
   right: .5em;
-}
-
-.divSocial img {
-  margin-top: .3em;
-  height: 50px;
-  width: 50px;
 }
 
 @media (max-width: 576px) {
@@ -111,7 +124,7 @@ nav ul li a:hover {
 @media (min-width: 576px) and (max-width:768px) {
   nav ul li a {
     text-align: left;
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 
   .divSocial img {
