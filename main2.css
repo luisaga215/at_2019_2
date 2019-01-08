@@ -1,7 +1,46 @@
-ul #imglogo img {
+.navbar-default {
+  background-color: orange;
+  border-color: darkorange;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  color: orange;
+}
+
+.navbar-text {
+  color: white;
+}
+
+/* Others */
+ul #imglogo1 a {
   margin: 0;
   padding: 0;
-  height: 50px;
+  height: 48px;
+  width: 150px;
+}
+
+ul #imglogo2 img {
+  margin: 0;
+  padding: 0;
+  height: 48px;
   width: 50px;
-  background-color: red;
+}
+
+.title2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 2.6em;
+}
+
+.at2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5em;
+}
+
+.active {
+  background-color: white;
+  color: orange;
 }

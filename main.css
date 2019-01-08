@@ -1,3 +1,4 @@
+/* HOME PAGE */
 .bodyHome {
   background-color: orange;
   color: white;
@@ -131,6 +132,7 @@ nav ul li a:hover {
   animation: 20s home_slider infinite;
 }
 
+/*General media*/
 @media (max-width: 576px) {
   nav ul li a {
     text-align: left;
