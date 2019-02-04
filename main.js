@@ -25,3 +25,21 @@ function hoverTwitter() {
 function unhoverTwitter() {
   $("#icon2 img").attr("src", "./assets/twiter_icon.svg");
 }
+
+function hoverDropdown() {
+  $("#navbarDropdownMenuLink").css("color", "orange");
+  $("#navbarDropdownMenuLink").css("background-color", "white");
+}
+
+function unhoverDropdown() {
+  $("#navbarDropdownMenuLink").css("color", "white");
+  $("#navbarDropdownMenuLink").css("background-color", "orange");
+}
+/*
+$(document).ready(function() {
+  $(".dropdown").on("show.bs.dropdown", function(event) {
+    var x = $(event.relatedTarget).text(); // Get the button text
+    alert("You clicked on: " + x);
+  });
+});
+*/

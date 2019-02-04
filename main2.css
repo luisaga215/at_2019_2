@@ -46,6 +46,14 @@
   color: white;
 }
 
+#navbarDropdownMenuLink:hover {
+  color: orange;
+}
+
+#navbarDropdownMenuLink {
+  color: white;
+}
+
 .title2 {
   font-family: 'Staatliches', cursive;
   font-size: 1.1em;
@@ -69,7 +77,7 @@
   }
 }
 
-@media (min-width: 576px) and (max-width:768px) {
+@media (min-width: 576px) and (max-width:830px) {
   .navbar-light {
     background-color: orange;
     color: white;
@@ -80,7 +88,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width:992px) {
+@media (min-width: 830px) and (max-width:992px) {
   .navbar-light {
     background-color: orange;
     color: white;
