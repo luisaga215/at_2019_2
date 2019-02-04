@@ -24,10 +24,26 @@
 }
 
 /* change the color of active or hovered links */
-.navbar-light .nav-item.active .nav-link,
-.navbar-light .nav-item:hover .nav-link {
+.navbar-light .nav-item .activo,
+.navbar-light .nav-item:hover .nav-link,
+.navbar-light .nav-item.activo .nav-link {
   background-color: white;
   color: orange;
+}
+
+/*Little padding for better look*/
+.navbar-light .nav-item {
+  padding-right: .1em;
+}
+
+/*For the dropdown "Concursos"*/
+.dropdown-menu .dropdown-item {
+  color: gray;
+}
+
+.dropdown-menu .dropdown-item:active {
+  background-color: orange;
+  color: white;
 }
 
 .title2 {
@@ -64,11 +80,19 @@
   }
 }
 
+@media (min-width: 768px) and (max-width:992px) {
+  .navbar-light {
+    background-color: orange;
+    color: white;
+    height: 46px;
+  }
+}
+
 @media (min-width: 992px) and (max-width:1200px) {
   .navbar-light {
     background-color: orange;
     color: white;
-    height: 45px;
+    height: 47px;
   }
 }
 
