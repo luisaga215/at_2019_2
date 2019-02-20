@@ -35,6 +35,23 @@ function unhoverDropdown() {
   $("#navbarDropdownMenuLink").css("color", "white");
   $("#navbarDropdownMenuLink").css("background-color", "orange");
 }
+
+function getId(theId) {
+  sessionStorage.setItem('cValue', theId);
+}
+
+function focusOnload() {
+  let cValue = sessionStorage.getItem('cValue');
+  $('body, html').animate({
+    scrollTop: ($('#c' + cValue).offset().top)
+  }, 2000);
+}
+
+function focusOnClick(theId) {
+  $('body, html').animate({
+    scrollTop: ($('#c' + theId).offset().top)
+  }, 2000);
+}
 /*
 $(document).ready(function() {
   $(".dropdown").on("show.bs.dropdown", function(event) {

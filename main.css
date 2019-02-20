@@ -89,28 +89,40 @@ nav ul li a:hover {
     left: 0;
   }
 
-  20% {
-    left: 0;
-  }
-
-  28% {
+  11% {
     left: -100%;
   }
 
-  48% {
-    left: -100%
-  }
-
-  60% {
+  22% {
     left: -200%;
   }
 
-  90% {
-    left: -200%;
+  33% {
+    left: -300%
+  }
+
+  44% {
+    left: -400%;
+  }
+
+  55% {
+    left: -500%;
+  }
+
+  66% {
+    left: -600%;
+  }
+
+  77% {
+    left: -700%;
+  }
+
+  88% {
+    left: -800%;
   }
 
   100% {
-    left: -300%;
+    left: 0;
   }
 }
 
@@ -119,17 +131,17 @@ nav ul li a:hover {
 }
 
 #slider figure img {
-  width: 25%;
+  width: 11.1111%;
   float: left;
 }
 
 #slider figure {
   position: relative;
-  width: 400%;
+  width: 900%;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 20s home_slider infinite;
+  animation: 40s home_slider infinite;
 }
 
 /*General media*/

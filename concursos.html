@@ -21,7 +21,7 @@
   <title> Congreso AT - Concursos </title>
 </head>
 
-<body>
+<body onload="focusOnload()">
   <nav class="navbar fixed-top navbar-light navbar-expand-xl navbar-expand-lg navbar-expand-md">
     <a class="navbar-brand" href="main.html"><img src="./assets/at_sinfondo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""><span class="title2">CONGRESO<span class="at2">AT</span></span></a>
     <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,12 +39,12 @@
             Concursos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="concursos.html">Robo Challenge</a>
-            <a class="dropdown-item" href="concursos.html">Gatherboats</a>
-            <a class="dropdown-item" href="concursos.html">Drones</a>
-            <a class="dropdown-item" href="concursos.html">Maze Raze</a>
-            <a class="dropdown-item" href="concursos.html">3D Make</a>
-            <a class="dropdown-item" href="concursos.html">Sumobots</a>
+            <a class="dropdown-item" href="#" id="Robo" onclick="focusOnClick(this.id);">RoboChallenge</a>
+            <a class=" dropdown-item" href="#" id="Gather" onclick="focusOnClick(this.id);">Gatherboats</a>
+            <a class="dropdown-item" href="#" id="Drones" onclick="focusOnClick(this.id);">Drones</a>
+            <a class="dropdown-item" href="#" id="Maze" onclick="focusOnClick(this.id);">Maze Raze</a>
+            <a class="dropdown-item" href="#" id="c3d" onclick="focusOnClick(this.id);">3D Make</a>
+            <a class="dropdown-item" href="#" id="Sumos" onclick="focusOnClick(this.id);">Sumobots</a>
           </div>
         </li>
       </ul>
@@ -53,8 +53,53 @@
   </nav>
 
   <div class="container-fluid">
-    <div class="row ">
-
+    <div class="row cRows" id="cRobo">
+      <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
+        <embed type="application/pdf" src="./convocatorias/convocatoria_robochallenge2019.pdf" width="100%">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12 cOrder">
+        <img src="./assets/banner_robo.jpg" alt="banner_robo" width="100%">
+      </div>
+    </div>
+    <div class="row cRows" id="cGather">
+      <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12">
+        <img src="./assets/banner_gather.jpg" alt="banner_gather" width="100%">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
+        <embed type="application/pdf" src="./convocatorias/convocatoria_gatherboats2019.pdf" width="100%">
+      </div>
+    </div>
+    <div class="row cRows" id="cDrones">
+      <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
+        <embed type="application/pdf" src="./convocatorias/convocatoria_drones2019.pdf" width="100%">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12 cOrder">
+        <img src="./assets/banner_drones.jpg" alt="banner_drones" width="100%">
+      </div>
+    </div>
+    <div class="row cRows" id="cMaze">
+      <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12">
+        <img src="./assets/banner_maze.jpg" alt="banner_maze" width="100%">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
+        <embed type="application/pdf" src="./convocatorias/convocatoria_maze2019.pdf" width="100%">
+      </div>
+    </div>
+    <div class="row cRows" id="cc3d">
+      <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
+        <embed type="application/pdf" src="./convocatorias/convocatoria_3dmake2019.pdf" width="100%">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12 cOrder">
+        <img src="./assets/banner_3d.jpg" alt="banner_3d" width="100%">
+      </div>
+    </div>
+    <div class="row cRows" id="cSumos">
+      <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12">
+        <img src="./assets/banner_sumos.jpg" alt="banner_sumos" width="100%">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
+        <embed type="application/pdf" src="./convocatorias/convocatoria_sumobots2019.pdf" width="100%">
+      </div>
     </div>
   </div>
 </body>

@@ -66,6 +66,11 @@
   color: white;
 }
 
+/*Concursos page*/
+.cRows {
+  margin-bottom: .5em;
+}
+
 @media (max-width: 576px) {
   .navbar-light {
     background-color: orange;
@@ -75,6 +80,19 @@
   #imglogo1 {
     display: none;
   }
+
+  .container-fluid {
+    margin-top: 80px;
+  }
+
+  embed {
+    height: 200px;
+    margin-top: .5em;
+  }
+
+  .cOrder {
+    order: -1;
+  }
 }
 
 @media (min-width: 576px) and (max-width:830px) {
@@ -83,8 +101,12 @@
     color: white;
   }
 
-  #imglogo1 {
-    display: none;
+  .container-fluid {
+    margin-top: 60px;
+  }
+
+  embed {
+    height: 300px;
   }
 }
 
@@ -94,6 +116,14 @@
     color: white;
     height: 46px;
   }
+
+  .container-fluid {
+    margin-top: 56px;
+  }
+
+  embed {
+    height: 520px;
+  }
 }
 
 @media (min-width: 992px) and (max-width:1200px) {
@@ -102,6 +132,14 @@
     color: white;
     height: 47px;
   }
+
+  .container-fluid {
+    margin-top: 57px;
+  }
+
+  embed {
+    height: 570px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -109,5 +147,13 @@
     background-color: orange;
     color: white;
     height: 50px;
+  }
+
+  .container-fluid {
+    margin-top: 60px;
+  }
+
+  embed {
+    height: 620px;
   }
 }
