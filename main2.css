@@ -71,6 +71,20 @@
   margin-bottom: .5em;
 }
 
+.titleConcursos {
+  font-family: 'Staatliches', cursive;
+  font-size: 3.5em;
+  margin-top: .58em;
+  color: #10D18B;
+}
+
+.cRows {
+  border-bottom-style: dotted;
+  border-bottom-width: .5em;
+  border-bottom-color: orange;
+  padding-bottom: .5em;
+}
+
 @media (max-width: 576px) {
   .navbar-light {
     background-color: orange;

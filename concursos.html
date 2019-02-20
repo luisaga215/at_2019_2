@@ -12,6 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!--the fonts-->
   <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <!--main script-->
   <script type="text/javascript" src="main.js"> </script>
   <!--main css with medias-->
@@ -23,6 +24,7 @@
 </head>
 
 <body onload="focusOnload()">
+  <!--navbar -->
   <nav class="navbar fixed-top navbar-light navbar-expand-xl navbar-expand-lg navbar-expand-md">
     <a class="navbar-brand" href="main.html"><img src="./assets/at_sinfondo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""><span class="title2">CONGRESO<span class="at2">AT</span></span></a>
     <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,6 +48,7 @@
             <a class="dropdown-item" href="#" id="Maze" onclick="focusOnClick(this.id);">Maze Raze</a>
             <a class="dropdown-item" href="#" id="c3d" onclick="focusOnClick(this.id);">3D Make</a>
             <a class="dropdown-item" href="#" id="Sumos" onclick="focusOnClick(this.id);">Sumobots</a>
+            <a class="dropdown-item" href="#" id="Tank" onclick="focusOnClick(this.id);">TankChallenge</a>
           </div>
         </li>
       </ul>
@@ -53,18 +56,35 @@
     </div>
   </nav>
 
+  <!--Content-->
   <div class="container-fluid">
     <div class="row cRows" id="cRobo">
       <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
         <embed type="application/pdf" src="./convocatorias/convocatoria_robochallenge2019.pdf" width="100%">
       </div>
       <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12 cOrder">
-        <img src="./assets/banner_robo.jpg" alt="banner_robo" width="100%">
+        <div class="row justify-content-center">
+          <p class="titleConcursos">RoboChallenge</p>
+        </div>
+        <div class="row justify-content-center">
+          <img src="./assets/logo_robo.png" alt="logo_robo" width="300px" height="300px">
+        </div>
+        <div class="row justify-content-center">
+          <p class="descripcionConcursos"></p>
+        </div>
       </div>
     </div>
     <div class="row cRows" id="cGather">
       <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12">
-        <img src="./assets/banner_gather.jpg" alt="banner_gather" width="100%">
+        <div class="row justify-content-center">
+          <p class="titleConcursos">Gatherboats</p>
+        </div>
+        <div class="row justify-content-center">
+          <img src="./assets/logo_gather.png" alt="logo_gather" width="300px" height="300px">
+        </div>
+        <div class="row justify-content-center">
+          <p class="descripcionConcursos"></p>
+        </div>
       </div>
       <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
         <embed type="application/pdf" src="./convocatorias/convocatoria_gatherboats2019.pdf" width="100%">
@@ -75,12 +95,28 @@
         <embed type="application/pdf" src="./convocatorias/convocatoria_drones2019.pdf" width="100%">
       </div>
       <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12 cOrder">
-        <img src="./assets/banner_drones.jpg" alt="banner_drones" width="100%">
+        <div class="row justify-content-center">
+          <p class="titleConcursos">Rescue Drone</p>
+        </div>
+        <div class="row justify-content-center">
+          <img src="./assets/logo_drones.png" alt="logo_drones" width="300px" height="300px">
+        </div>
+        <div class="row justify-content-center">
+          <p class="descripcionConcursos"></p>
+        </div>
       </div>
     </div>
     <div class="row cRows" id="cMaze">
       <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12">
-        <img src="./assets/banner_maze.jpg" alt="banner_maze" width="100%">
+        <div class="row justify-content-center">
+          <p class="titleConcursos">Maze Race</p>
+        </div>
+        <div class="row justify-content-center">
+          <img src="./assets/logo_maze.png" alt="logo_maze" width="300px" height="300px">
+        </div>
+        <div class="row justify-content-center">
+          <p class="descripcionConcursos"></p>
+        </div>
       </div>
       <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
         <embed type="application/pdf" src="./convocatorias/convocatoria_maze2019.pdf" width="100%">
@@ -91,15 +127,47 @@
         <embed type="application/pdf" src="./convocatorias/convocatoria_3dmake2019.pdf" width="100%">
       </div>
       <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12 cOrder">
-        <img src="./assets/banner_3d.jpg" alt="banner_3d" width="100%">
+        <div class="row justify-content-center">
+          <p class="titleConcursos">3D Make</p>
+        </div>
+        <div class="row justify-content-center">
+          <img src="./assets/logo_3d.png" alt="logo_3d" width="300px" height="300px">
+        </div>
+        <div class="row justify-content-center">
+          <p class="descripcionConcursos"></p>
+        </div>
       </div>
     </div>
     <div class="row cRows" id="cSumos">
       <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12">
-        <img src="./assets/banner_sumos.jpg" alt="banner_sumos" width="100%">
+        <div class="row justify-content-center">
+          <p class="titleConcursos">Sumobots</p>
+        </div>
+        <div class="row justify-content-center">
+          <img src="./assets/logo_sumos.png" alt="logo_sumos" width="300px" height="300px">
+        </div>
+        <div class="row justify-content-center">
+          <p class="descripcionConcursos"></p>
+        </div>
       </div>
       <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
         <embed type="application/pdf" src="./convocatorias/convocatoria_sumobots2019.pdf" width="100%">
+      </div>
+    </div>
+    <div class="row cRows" id="cTank">
+      <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
+        <embed type="application/pdf" src="./convocatorias/convocatoria_tankchallenge2019.pdf" width="100%">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12 cOrder">
+        <div class="row justify-content-center">
+          <p class="titleConcursos">Tankchallenge</p>
+        </div>
+        <div class="row justify-content-center">
+          <img src="./assets/logo_tank.png" alt="logo_tank" width="300px" height="300px">
+        </div>
+        <div class="row justify-content-center">
+          <p class="descripcionConcursos"></p>
+        </div>
       </div>
     </div>
   </div>
