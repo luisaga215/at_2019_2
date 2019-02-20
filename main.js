@@ -52,6 +52,7 @@ function focusOnClick(theId) {
     scrollTop: ($('#c' + theId).offset().top)
   }, 2000);
 }
+
 /*
 $(document).ready(function() {
   $(".dropdown").on("show.bs.dropdown", function(event) {
