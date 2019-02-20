@@ -74,15 +74,17 @@
 .titleConcursos {
   font-family: 'Staatliches', cursive;
   font-size: 3.5em;
-  margin-top: .58em;
-  color: #10D18B;
+  margin-top: .35em;
+  color: lightblue;
+  /* #1F75FE*/
 }
 
 .cRows {
   border-bottom-style: dotted;
   border-bottom-width: .5em;
   border-bottom-color: orange;
-  padding-bottom: .5em;
+  padding-bottom: 1.2em;
+  padding-top: 1em;
 }
 
 @media (max-width: 576px) {
