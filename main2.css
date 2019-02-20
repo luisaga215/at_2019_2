@@ -87,6 +87,28 @@
   padding-top: 1em;
 }
 
+#cRobo {
+  padding-top: 0;
+}
+
+.descripcionConcursos {
+  font-family: 'Poppins', sans-serif;
+  color: #800000;
+  text-align: justify;
+  border-style: solid;
+  border-radius: .4em;
+  padding: .5em;
+  border-color: lightblue;
+  border-width: medium;
+  margin-right: .35em;
+  /*#10D1BA*/
+}
+
+.descripcionConcursos p {
+  padding-left: .4em;
+  padding-right: .4em;
+}
+
 @media (max-width: 576px) {
   .navbar-light {
     background-color: orange;
@@ -108,6 +130,10 @@
 
   .cOrder {
     order: -1;
+  }
+
+  .descripcionConcursos {
+    margin-left: .35em;
   }
 }
 
