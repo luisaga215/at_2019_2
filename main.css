@@ -71,11 +71,14 @@ nav ul li a:hover {
 .divImgHome2 {
   border-radius: 10px;
   height: 500px;
+  padding-left: .2em;
+  padding-right: .2em;
 }
 
 .divImgHome1, .divImgHome2 {
   margin-left: -2.5%;
   background-color: white;
+  background-image: url("./assets/background4.jpg");
 }
 
 .logo_tec {
