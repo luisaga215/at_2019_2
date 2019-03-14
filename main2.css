@@ -83,6 +83,14 @@ body {
   /* #1F75FE*/
 }
 
+.vistazo {
+  font-family: 'Staatliches', cursive;
+  font-size: 2em;
+  margin-top: .35em;
+  color: #0a0f44;
+  text-align: center;
+}
+
 .cRows {
   border-bottom-style: groove;
   border-bottom-width: .5em;
@@ -112,6 +120,76 @@ body {
 .descripcionConcursos p {
   padding-left: .4em;
   padding-right: .4em;
+}
+
+/*Boletos*/
+.buttonsSteps {
+  position: fixed;
+  top: 5em;
+  right: 0;
+  margin-right: 1em;
+  z-index: 1000;
+}
+
+.stepBut {
+  opacity: .6;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: .2em;
+  width: 6em;
+  background-color: #0a0f44;
+  color: white;
+}
+
+.stepBut:hover {
+  background-color: white;
+  color: #0a0f44;
+}
+
+.irow {
+  padding-top: 2em;
+}
+
+/*Visitas*/
+.titleVisitas {
+  font-family: 'Staatliches', cursive;
+  font-size: 3em;
+  margin-top: .35em;
+  color: #0a0f44;
+  /* #1F75FE*/
+}
+
+/*Becas*/
+.titleEmbajadores {
+  font-family: 'Staatliches', cursive;
+  font-size: 2.5em;
+  margin-top: .35em;
+  color: #0a0f44;
+  text-align: center;
+  /* #1F75FE*/
+}
+
+.buttonEmbajador {
+  position: fixed;
+  top: 5em;
+  right: 0;
+  margin-right: 1em;
+  z-index: 1000;
+}
+
+.embajadorBut {
+  opacity: .8;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: .2em;
+  width: 10em;
+  background-color: orange;
+  color: white;
+}
+
+.embajadorBut:hover {
+  background-color: white;
+  color: orange;
 }
 
 @media (max-width: 576px) {
@@ -145,6 +223,25 @@ body {
     width: 270px;
     height: 270px;
   }
+
+  .stepBut {
+    width: 5em;
+    font-size: .8em;
+    display: none;
+  }
+
+  .embajadorBut {
+    width: 5.8em;
+    font-size: .8em;
+  }
+
+  .titleEmbajadores {
+    font-size: 1.8em;
+  }
+
+  #mapaH {
+    height: 300px;
+  }
 }
 
 @media (min-width: 576px) and (max-width:830px) {
@@ -164,6 +261,10 @@ body {
   .cImage {
     width: 250px;
     height: 250px;
+  }
+
+  #mapaH {
+    height: 450px;
   }
 }
 
@@ -186,6 +287,14 @@ body {
     width: 270px;
     height: 270px;
   }
+
+  #precios1 {
+    height: 400px;
+  }
+
+  #mapaH {
+    height: 500px;
+  }
 }
 
 @media (min-width: 992px) and (max-width:1200px) {
@@ -207,6 +316,18 @@ body {
     width: 270px;
     height: 270px;
   }
+
+  .imgs {
+    height: 625px;
+  }
+
+  #precios1 {
+    height: 500px;
+  }
+
+  #mapaH {
+    height: 600px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -227,5 +348,17 @@ body {
   .cImage {
     width: 280px;
     height: 280px;
+  }
+
+  .imgs {
+    height: 640px;
+  }
+
+  #precios1 {
+    height: 500px;
+  }
+
+  #mapaH {
+    height: 640px;
   }
 }
