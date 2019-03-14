@@ -195,6 +195,17 @@ body {
 }
 
 /*Talleres*/
+.proxTalleres {
+  padding-bottom: 0;
+}
+
+.titleProxTalleres {
+  font-family: 'Staatliches', cursive;
+  font-size: 3em;
+  color: #800000;
+  text-align: center;
+}
+
 .titleTalleres {
   font-family: 'Staatliches', cursive;
   font-size: 2.5em;
@@ -274,6 +285,10 @@ body {
   .titleVisitas {
     font-size: 3em;
     margin-top: 3em;
+  }
+
+  .titleProxTalleres {
+    font-size: 2em;
   }
 }
 
