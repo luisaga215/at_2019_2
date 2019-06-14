@@ -4,5 +4,5 @@
 <img src="./assets/at.png" alt="AT" height="300px" width="315px">
 
 Visitanos en facebook: https://www.facebook.com/automatizacionytecnologia <br>
-Siguenos en Twitter: https://twitter.com/eventoat
-hosting = congresoat.com
+Siguenos en Twitter: https://twitter.com/eventoat <br>
+hosting: https://congresoat.com
