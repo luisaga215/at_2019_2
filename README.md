@@ -5,4 +5,4 @@
 
 Visitanos en facebook: https://www.facebook.com/automatizacionytecnologia <br>
 Siguenos en Twitter: https://twitter.com/eventoat <br>
-hosting: http://www.congresoat.com
+Domain: http://www.congresoat.com
